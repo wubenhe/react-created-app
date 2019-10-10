@@ -1,17 +1,20 @@
-import React from 'react';
-import Filter from './Filter';
-import Result from './Result';
-import Count from './Count';
+import React from "react";
+import Filter from "./Filter";
+import Result from "./Result";
+import Count from "./Count";
 
 function App() {
   return (
     <div>
-      <br/><br/>
-      <Filter/>
-      <br/><br/>
+      <br />
+      <br />
+      <Filter />
+      <br />
+      <br />
       <Count />
-      <br/><br/>
-      <Result/>
+      <br />
+      <br />
+      <Result />
     </div>
   );
 }
